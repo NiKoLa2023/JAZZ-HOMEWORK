@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+    
+    <input type="text" id="title" value="Title"><br />
+    <br />
+    <label for="priority">Chose priority reminder</label>
+    
+    <select name="priority" id="alarm">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+    </select>
+    <br />
+    <br />
+    <input type="color" id="collores" value="color">\
+    <br />
+    <br />
+    <textarea id="description" name="large" rows="4" cols="50"></textarea>
+    <br />
+    <br />
+    <input type="button" id="firstbutton" value="Add reminder"><br />
+    <br />
+    <input type="button" id="secondbutton" value="Show all reminders"><br />
+    <p id = "result"></p>
+
+    <table>
+        <thead></thead>
+        <tr>
+            <td>Title</td>
+            <td>Priority</td>
+            <td>Color</td>
+            <td>Description</td>
+        </tr>
+        <tbody id="tableShow"></tbody>
+    </table>
+    <script src="./app.js"></script>
+</body>
+</html>
